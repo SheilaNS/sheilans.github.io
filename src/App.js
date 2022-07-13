@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Portfólio de Sheila Nakashima dos Santos
         </a>
       </header>
     </div>
