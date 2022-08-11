@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.App-full {
+  position: absolute;
+  z-index: 1;
+  top: 16.5vmin;
+  height: 40vmin;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,14 +21,13 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(3,99,213,1) 100%);  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -33,6 +39,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }

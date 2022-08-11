@@ -1,22 +1,19 @@
-import logo from './logo.svg';
+import logo from './coding-circle1.png';
+import full from './full-stack2.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src={full} className="App-full" alt="logo" />
         <img src={logo} className="App-logo" alt="logo" />
+        <h2>
+          Sheila Nakashima dos Santos
+        </h2>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          {'< Desenvolvedora />'}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Portfólio de Sheila Nakashima dos Santos
-        </a>
       </header>
     </div>
   );
