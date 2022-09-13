@@ -6,10 +6,9 @@
   position: absolute;
   z-index: 1;
   top: 16.5vmin;
-  height: 40vmin;
 }
 
-.App-logo {
+.App-logo, .App-full {
   height: 40vmin;
   pointer-events: none;
 }
