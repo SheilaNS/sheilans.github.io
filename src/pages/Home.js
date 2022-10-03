@@ -10,7 +10,7 @@ function Home() {
       <main>
         <div className="main-container">
           <div className="container-content">
-            <h1> Sheila Nakahsima dos Santos</h1>
+            <h1> Sheila Nakashima dos Santos</h1>
             <p>Hi there! This is my portfolio. Here you'll be able to know more about me, my skills and the projects that I have developed until now.</p>
             <p>Hope you enjoy!</p>
           </div>
