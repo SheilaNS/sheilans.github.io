@@ -1,0 +1,13 @@
+.footer {
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  text-align: center;
+}

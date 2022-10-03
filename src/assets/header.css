@@ -1,0 +1,4 @@
+.header-links {
+  display: flex;
+  justify-content: space-between;
+}
