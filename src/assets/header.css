@@ -1,4 +1,14 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
   display: flex;
   justify-content: space-between;
 }
