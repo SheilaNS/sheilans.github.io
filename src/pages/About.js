@@ -31,7 +31,7 @@ export default function About() {
           <img src={ eu2 } alt="Eu no computador" className={ about.image } />
           <div className='me-text'>
             <h2 className={ about.title }>Carreer change</h2>
-            <p className={ about.text }>As I said before, I first graduated in Pharmacy. During my professional experience, I noticed I needed a system to help me on my rotine, so I dedided start studying Software Analysis and Development to develop something for me. While I was studying, I could see myself developing for the rest of my life so I left Pharmacy and started my career change.</p>
+            <p className={ about.text }>As I said before, I first graduated in Pharmacy. During my professional experience, I noticed I needed a system to help me on my rotine, so I decided to start studying Software Analysis and Development to develop something for me. While I was studying, I could see myself developing for the rest of my life so I left Pharmacy and started my career change.</p>
           </div>
         </div>
         <img src={ divisor } alt="divisor" className={ about.div } />
