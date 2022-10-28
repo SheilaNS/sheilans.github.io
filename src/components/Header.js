@@ -1,32 +1,64 @@
-import React from 'react';
-import Stack from 'react-bootstrap/Stack';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import '../assets/header.css';
+import { useLocation } from "react-router-dom";
 
-function Header() {
+export default function Header() {
+  const local = useLocation();
   return (
-    <header className="header">
-      <Navbar expand="lg" bg="light" variant="light" className="nav-menu">
-      <Container className="header-container">
-        <Navbar.Brand>Full Stack Software Developer</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="header-links">
-          <Nav className="ms-auto">
-            <Stack direction="horizontal" gap={3}>
-              <Nav.Link href="/#/" className="active">Home</Nav.Link>
-              <Nav.Link href="/#/about">About</Nav.Link>
-              <Nav.Link href="/#/skills">Skills</Nav.Link>
-              <Nav.Link href="/#/projects">Projects</Nav.Link>
-              <Nav.Link href="/#/contact">Contact</Nav.Link>
-            </Stack>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <header>
+      <nav className="navbar navbar-expand-lg" id="header-nav">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/">
+            Full Stack Software Developer
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div
+          className="collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <a
+                className={local.pathname === '/' ? "nav-link active" : "nav-link"}
+                aria-current="page"
+                href="/"
+                id="home"
+              >
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className={local.pathname === '/about' ? "nav-link active" : "nav-link"} href="/about" id="about">
+                About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className={local.pathname === '/skills' ? "nav-link active" : "nav-link"} href="/skills" id="skills">
+                Skills
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className={local.pathname === '/projects' ? "nav-link active" : "nav-link"} href="/projects" id="projects">
+                Projects
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className={local.pathname === '/contact' ? "nav-link active" : "nav-link"} href="/contact" id="contact">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
   );
 }
-
-export default Header;

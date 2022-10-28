@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  bottom: 0;
+  background: #E9E9E9;
+}
+
