@@ -1,4 +1,4 @@
-import eu from '../assets/images/Eu.png';
+import eu from '../assets/images/eu.png';
 import divisor from '../assets/images/divisor.svg';
 import cats from '../assets/images/cats.png';
 import eu2 from '../assets/images/eu2.png';
