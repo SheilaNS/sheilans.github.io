@@ -19,9 +19,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 4px;
 }
 
 .title {
+  padding-top: 8px;
   text-align: center;
   height: 34px;
   font-weight: 500;
@@ -31,7 +33,7 @@
 }
 
 .text {
-  padding: 12px;
+  padding: 12px 12px 0;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -41,7 +43,7 @@
 }
 
 .image {
-  margin: 0 auto;
+  margin: 12px auto 0;
   width: 250px;
   border-radius: 150px;
 }

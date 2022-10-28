@@ -21,14 +21,13 @@ export default function Header() {
             <span className="navbar-toggler-icon"></span>
           </button>
         </div>
-        <div
-          className="collapse navbar-collapse"
-          id="navbarSupportedContent"
-        >
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <a
-                className={local.pathname === '/' ? "nav-link active" : "nav-link"}
+                className={
+                  local.pathname === "/" ? "nav-link active" : "nav-link"
+                }
                 aria-current="page"
                 href="/"
                 id="home"
@@ -37,22 +36,48 @@ export default function Header() {
               </a>
             </li>
             <li className="nav-item">
-              <a className={local.pathname === '/about' ? "nav-link active" : "nav-link"} href="/about" id="about">
+              <a
+                className={
+                  local.pathname === "/about" ? "nav-link active" : "nav-link"
+                }
+                href="/about"
+                id="about"
+              >
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a className={local.pathname === '/skills' ? "nav-link active" : "nav-link"} href="/skills" id="skills">
+              <a
+                className={
+                  local.pathname === "/skills" ? "nav-link active" : "nav-link"
+                }
+                href="/skills"
+                id="skills"
+              >
                 Skills
               </a>
             </li>
             <li className="nav-item">
-              <a className={local.pathname === '/projects' ? "nav-link active" : "nav-link"} href="/projects" id="projects">
+              <a
+                className={
+                  local.pathname === "/projects"
+                    ? "nav-link active"
+                    : "nav-link"
+                }
+                href="/projects"
+                id="projects"
+              >
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className={local.pathname === '/contact' ? "nav-link active" : "nav-link"} href="/contact" id="contact">
+              <a
+                className={
+                  local.pathname === "/contact" ? "nav-link active" : "nav-link"
+                }
+                href="/contact"
+                id="contact"
+              >
                 Contact
               </a>
             </li>
