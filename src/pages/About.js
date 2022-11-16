@@ -16,11 +16,11 @@ export default function About() {
           <div className="me-text">
             <h2 className={about.title}>Hi! My name is Sheila</h2>
             <p className={about.text}>
-              I was born in oct/1984 in São Paulo City, Brazil. I left my mom’s
-              house to study when I was 22. I lived in Araraquara, for my first
+              I was born in oct/1984 in the city of São Paulo, Brazil. I left my
+              mom’s house to study when I was 22. Even though I have never left
+              the state of São Paulo, I've lived in Araraquara for my first
               degree in Pharmacy and after graduation I went to Itapira, São
-              Carlos and now I live in Campinas. I have never left São Paulo
-              State tho.
+              Carlos and now I live in Campinas.
             </p>
           </div>
         </div>
@@ -30,8 +30,8 @@ export default function About() {
           <div className="me-text">
             <h2 className={about.title}>These are my babies</h2>
             <p className={about.text}>
-              I’m a mom of two furballs, one 15-years-old girl and one
-              13-years-old boy, their names are Nety and David. And you can see
+              I’m a mom of two furballs, one 15-year-old girl and one
+              13-year-old boy, their names are Nety and David. And you can see
               on this pic that they have very different personalities. Can you
               guess who is the girl and who is the boy?
             </p>
@@ -41,14 +41,14 @@ export default function About() {
         <div className={about.info}>
           <img src={eu2} alt="Eu no computador" className={about.image} />
           <div className="me-text">
-            <h2 className={about.title}>Carreer change</h2>
+            <h2 className={about.title}>Career change</h2>
             <p className={about.text}>
-              As I said before, I first graduated in Pharmacy. During my
+              As I've said before, I first graduated in Pharmacy. During my
               professional experience, I noticed I needed a system to help me on
-              my rotine, so I decided to start studying Software Analysis and
-              Development to develop something for me. While I was studying, I
-              could see myself developing for the rest of my life so I left
-              Pharmacy and started my career change.
+              my routine, so I decided to study Software Analysis and
+              Development in order to develop something for me. While I was
+              studying, I could see myself developing for the rest of my life so
+              I left Pharmacy and started my career change.
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default function About() {
               finishing the software development course at. This way I can help
               other students and learn at the same time. Now I’m open to work
               and I developed this portfolio to show what I've learned after
-              almost one year of studying on Trybe.
+              almost one year of studying at Trybe.
             </p>
           </div>
         </div>

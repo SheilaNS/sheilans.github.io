@@ -9,14 +9,13 @@ export default function Home() {
           <h1> Sheila Nakashima dos Santos</h1>
           <p className={home.text}>
             Hi there! This is my portfolio. Here you'll be able to know more
-            about me, my skills and the projects that I have developed until
-            now.
+            about me, my skills and the projects I have developed so far.
           </p>
           <p className={home.text}>Hope you enjoy!</p>
         </div>
       </div>
       <div className={home.body}>
-        <h2>Behind the scene of this portfolio</h2>
+        <h2>Behind the scenes of this portfolio</h2>
         <p className={home.text}>
           Developed with React.js, responsive Bootstrap and CSS Modules.
         </p>
