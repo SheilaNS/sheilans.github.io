@@ -1,10 +1,10 @@
-import git from '../assets/images/git.svg';
-import vscode from '../assets/images/vscode.svg';
-import figma from '../assets/images/figma.svg';
-import canva from '../assets/images/canva.svg';
-import zoom from '../assets/images/zoom.svg';
-import slack from '../assets/images/slack.svg';
-import discord from '../assets/images/discord.svg';
+import git from '../assets/icons/git.svg';
+import vscode from '../assets/icons/vscode.svg';
+import figma from '../assets/icons/figma.svg';
+import canva from '../assets/icons/canva.svg';
+import zoom from '../assets/icons/zoom.svg';
+import slack from '../assets/icons/slack.svg';
+import discord from '../assets/icons/discord.svg';
 
 const tech = [
   {

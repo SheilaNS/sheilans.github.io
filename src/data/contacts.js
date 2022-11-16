@@ -1,7 +1,7 @@
-import github from '../assets/images/github.svg';
-import whatsapp from '../assets/images/whatsapp.svg';
-import gmail from '../assets/images/gmail.svg';
-import linkedin from '../assets/images/linkedin.svg';
+import github from '../assets/icons/github.svg';
+import whatsapp from '../assets/icons/whatsapp.svg';
+import gmail from '../assets/icons/gmail.svg';
+import linkedin from '../assets/icons/linkedin.svg';
 
 const contacts = [
   {

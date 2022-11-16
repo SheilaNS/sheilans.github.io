@@ -1,8 +1,8 @@
-import jest from '../assets/images/jest.svg';
-import rtl from '../assets/images/rtl.svg';
-import mocha from '../assets/images/mocha.svg';
-import chai from '../assets/images/chai.svg';
-import sinon from '../assets/images/sinon.svg';
+import jest from '../assets/icons/jest.svg';
+import rtl from '../assets/icons/rtl.svg';
+import mocha from '../assets/icons/mocha.svg';
+import chai from '../assets/icons/chai.svg';
+import sinon from '../assets/icons/sinon.svg';
 
 const test = [
   {

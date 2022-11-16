@@ -1,9 +1,9 @@
-import docker from '../assets/images/docker.svg';
-import mysql from '../assets/images/mysql.svg';
-import nodejs from '../assets/images/nodejs.svg';
-import typescript from '../assets/images/typescript.svg';
-import mongodb from '../assets/images/mongodb.svg';
-import python from '../assets/images/python.svg';
+import docker from '../assets/icons/docker.svg';
+import mysql from '../assets/icons/mysql.svg';
+import nodejs from '../assets/icons/nodejs.svg';
+import typescript from '../assets/icons/typescript.svg';
+import mongodb from '../assets/icons/mongodb.svg';
+import python from '../assets/icons/python.svg';
 
 const back = [
   {

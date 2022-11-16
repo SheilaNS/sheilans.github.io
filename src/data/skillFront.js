@@ -1,9 +1,9 @@
-import html from '../assets/images/html.svg';
-import css from '../assets/images/css.svg';
-import javascript from '../assets/images/javascript.svg';
-import react from '../assets/images/react.svg';
-import redux from '../assets/images/redux.svg';
-import tailwind from '../assets/images/tailwind.svg';
+import html from '../assets/icons/html.svg';
+import css from '../assets/icons/css.svg';
+import javascript from '../assets/icons/javascript.svg';
+import react from '../assets/icons/react.svg';
+import redux from '../assets/icons/redux.svg';
+import tailwind from '../assets/icons/tailwind.svg';
 
 const front = [
   {

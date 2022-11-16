@@ -1,8 +1,8 @@
-import eu from "../assets/images/eu.png";
-import divisor from "../assets/images/divisor.svg";
-import cats from "../assets/images/cats.png";
-import eu2 from "../assets/images/eu2.png";
-import trybe from "../assets/images/trybe.png";
+import eu from "../assets/images/about/eu.png";
+import divisor from "../assets/images/about/divisor.svg";
+import cats from "../assets/images/about/cats.png";
+import eu2 from "../assets/images/about/eu2.png";
+import trybe from "../assets/images/about/trybe.png";
 import Title from "../components/Title";
 import about from "../assets/css/About.module.css";
 
