@@ -17,7 +17,7 @@ export default function About() {
             <h2 className={about.title}>Hi! My name is Sheila</h2>
             <p className={about.text}>
               I was born in oct/1984 in the city of São Paulo, Brazil. I left my
-              mom’s house to study when I was 22. Even though I have never left
+              mom's house to study when I was 22. Even though I have never left
               the state of São Paulo, I've lived in Araraquara for my first
               degree in Pharmacy and after graduation I went to Itapira, São
               Carlos and now I live in Campinas.
@@ -30,7 +30,7 @@ export default function About() {
           <div className="me-text">
             <h2 className={about.title}>These are my babies</h2>
             <p className={about.text}>
-              I’m a mom of two furballs, one 15-year-old girl and one
+              I'm a mom of two furballs, one 15-year-old girl and one
               13-year-old boy, their names are Nety and David. And you can see
               on this pic that they have very different personalities. Can you
               guess who is the girl and who is the boy?
@@ -58,9 +58,9 @@ export default function About() {
           <div className="me-text">
             <h2 className={about.title}>Today</h2>
             <p className={about.text}>
-              I’m working as a Summer Instructor for the same school I’m
+              I'm working as a Summer Instructor for the same school I'm
               finishing the software development course at. This way I can help
-              other students and learn at the same time. Now I’m open to work
+              other students and learn at the same time. Now I'm open to work
               and I developed this portfolio to show what I've learned after
               almost one year of studying at Trybe.
             </p>
