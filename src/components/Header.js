@@ -7,7 +7,7 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg" id="header-nav">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            Full Stack Software Developer
+            Sheila Nakashima dos Santos
           </a>
           <button
             className="navbar-toggler"
@@ -35,7 +35,7 @@ export default function Header() {
                 Home
               </a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a
                 className={
                   local.pathname === "/about" ? "nav-link active" : "nav-link"
@@ -45,7 +45,7 @@ export default function Header() {
               >
                 About
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a
                 className={
@@ -75,7 +75,7 @@ export default function Header() {
                 className={
                   local.pathname === "/contact" ? "nav-link active" : "nav-link"
                 }
-                href="/contact"
+                href="#contacts"
                 id="contact"
               >
                 Contact

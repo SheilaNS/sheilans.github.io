@@ -3,13 +3,11 @@ import divisor from "../assets/images/about/divisor.svg";
 import cats from "../assets/images/about/cats.png";
 import eu2 from "../assets/images/about/eu2.png";
 import trybe from "../assets/images/about/trybe.png";
-import Title from "../components/Title";
 import about from "../assets/css/About.module.css";
 
 export default function About() {
   return (
-    <main className={about.main}>
-      <Title title="About" />
+    <div className={about.main}>
       <div className={about.body}>
         <div className={about.info}>
           <img src={eu} alt="Eu" className={about.image} />
@@ -68,6 +66,6 @@ export default function About() {
         </div>
         <img src={divisor} alt="divisor" className={about.div} />
       </div>
-    </main>
+    </div>
   );
 }

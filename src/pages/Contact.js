@@ -1,4 +1,3 @@
-import Title from "../components/Title";
 import contacts from "../data/contacts";
 import style from "../assets/css/Contact.module.css";
 import Card from "../components/Card";
@@ -6,9 +5,7 @@ import Card from "../components/Card";
 export default function Contact() {
   return (
     <div className={style.main}>
-      <Title title="Contact" />
-      <div className={style.body}>
-        <div className={style.skills}>
+        <div className={style.cards} id="contacts">
           {contacts.map((elem) => (
             <a
               key={elem.name}
@@ -20,7 +17,6 @@ export default function Contact() {
               <Card name={elem.name} logo={elem.logo} />
             </a>
           ))}
-        </div>
       </div>
     </div>
   );
