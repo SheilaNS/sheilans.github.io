@@ -53,3 +53,22 @@
   width: 300px;
   height: 38px;
 }
+
+@media only screen and (max-width: 450px) {
+  .info {
+    padding: 0 14px;
+  }
+
+  .image {
+    width: 200px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 18px;
+
+  }
+}

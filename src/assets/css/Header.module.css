@@ -1,6 +1,26 @@
-.header {
+.header , .menu {
   background-color: #E9E9E9;
-  width: 100%;
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 80%;
   height: 60px;
   z-index: 1;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar {
+    width: 100%;
+  }
+
+  #name {
+    font-size: 16px;
+  }
 }

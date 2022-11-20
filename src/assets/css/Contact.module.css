@@ -1,13 +1,10 @@
-/* .main {
-  min-height: 84vh;
-} */
-
-/* .body {
-  padding-top: 4px;
+.main {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-} */
+  margin-bottom: 16px;
+}
 
 .title {
   margin: 0;
@@ -18,10 +15,15 @@
 }
 
 .cards {
-  margin: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
+}
+
+@media only screen and (max-width: 320px) {
+  .link {
+    width: 45%;
+  }
 }
