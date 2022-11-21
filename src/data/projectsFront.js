@@ -8,7 +8,7 @@ const contacts = [
   {
     name: "Solar System",
     image: solar,
-    description: "first project in React. Learn more about space missions.",
+    description: "First project in React. Learn more about space missions.",
     gitHub: "https://github.com/SheilaNS/project-solar-system",
     gitIcon: github,
     web: "https://sheilans.github.io/project-solar-system/",
