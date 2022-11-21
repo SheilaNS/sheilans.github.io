@@ -1,7 +1,6 @@
 import React from "react";
 import home from "../assets/css/Home.module.css";
 import About from "./About";
-import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
           Developed with React.js, responsive Bootstrap and CSS Modules.
         </p>
       </div>
-      <Contact />
     </main>
   );
 }

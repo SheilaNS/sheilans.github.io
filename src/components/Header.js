@@ -23,7 +23,10 @@ export default function Header() {
               <span className="navbar-toggler-icon"></span>
             </button>
           </div>
-          <div className={`${style.menu} collapse navbar-collapse`} id="navbarSupportedContent">
+          <div
+            className={`${style.menu} collapse navbar-collapse`}
+            id="navbarSupportedContent"
+          >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a
@@ -70,8 +73,10 @@ export default function Header() {
                       ? "nav-link active"
                       : "nav-link"
                   }
-                  href="/#contacts"
+                  href="https://www.linkedin.com/in/sheila-nakashima-dos-santos/"
                   id="contact"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Contact
                 </a>
