@@ -14,7 +14,7 @@ export default function About() {
           <div className="me-text">
             <h2 className={about.title}>Hi! My name is Sheila</h2>
             <p className={about.text}>
-              I was born in oct/1984 in the city of São Paulo, Brazil. I left my
+              I was born in Oct/1984 in the city of São Paulo, Brazil. I left my
               mom's house to study when I was 22. Even though I have never left
               the state of São Paulo, I've lived in Araraquara for my first
               degree in Pharmacy and after graduation I went to Itapira, São

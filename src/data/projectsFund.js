@@ -8,7 +8,7 @@ const contacts = [
   {
     name: "Playground Functions",
     image: play,
-    description: "Playing with programming logic in JavaScript and learning abodut types and variables.",
+    description: "Playing with programming logic in JavaScript and learning about types and variables.",
     gitHub: "https://github.com/SheilaNS/project-playground-functions",
     gitIcon: github,
     web: undefined,
