@@ -8,7 +8,7 @@ const contacts = [
   {
     name: "Playground Functions",
     image: play,
-    description: "Brincando com lógica de programação em JavaScript e aprendendo sobre tipos e variáveis.",
+    description: "Playing with programming logic with JavaScript and learning abodut types and variables.",
     gitHub: "https://github.com/SheilaNS/project-playground-functions",
     gitIcon: github,
     web: undefined,
@@ -17,7 +17,7 @@ const contacts = [
   {
     name: "Pixels Art",
     image: pixels,
-    description: "Desenhe com arte pixelada em um board dinâmico.",
+    description: "Create art with pixel art on a dynamic board.",
     gitHub: "https://github.com/SheilaNS/project-pixels-art",
     gitIcon: github,
     web: "https://sheilans.github.io/project-pixels-art/",
@@ -26,7 +26,7 @@ const contacts = [
   {
     name: "Zoo Functions",
     image: zoo,
-    description: "Sistema de gerenciamento de um Zoológico usando Higher Order Functions.",
+    description: "Zoo management system using Higher Order Functions.",
     gitHub: "https://github.com/SheilaNS/project-zoo-functions",
     gitIcon: github,
     web: undefined,
