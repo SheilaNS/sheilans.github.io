@@ -35,13 +35,14 @@
   height: 100%;
   left: 0;
   padding: 10px 20px;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.90);
   transition: 0.3s ease; 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   gap: 4px;
+  font-weight: 500;
 }
 
 .card:hover .details {

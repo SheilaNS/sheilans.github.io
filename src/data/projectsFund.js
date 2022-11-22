@@ -1,6 +1,8 @@
 import pixels from '../assets/images/projects/pixel-art.png';
 import play from '../assets/images/projects/playground.png';
 import zoo from '../assets/images/projects/zoo2.png';
+import color from '../assets/images/projects/guess2.png';
+import meme from '../assets/images/projects/meme.png';
 import github from '../assets/icons/github.svg';
 import web from '../assets/icons/web.svg';
 
@@ -21,6 +23,24 @@ const contacts = [
     gitHub: "https://github.com/SheilaNS/project-pixels-art",
     gitIcon: github,
     web: "https://sheilans.github.io/project-pixels-art/",
+    webIcon: web,
+  },
+  {
+    name: "Color Guess",
+    image: color,
+    description: "Can you guess the color? Simple game with RGB Color in JavaScript.",
+    gitHub: "https://github.com/SheilaNS/project-color-guess",
+    gitIcon: github,
+    web: "https://sheilans.github.io/project-color-guess/",
+    webIcon: web,
+  },
+  {
+    name: "Meme Generator",
+    image: meme,
+    description: "Create your own memes with this fun project made in JavaScript.",
+    gitHub: "https://github.com/SheilaNS/project-meme-generator",
+    gitIcon: github,
+    web: "https://sheilans.github.io/project-meme-generator/",
     webIcon: web,
   },
   {
