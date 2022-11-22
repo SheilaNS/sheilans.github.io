@@ -1,4 +1,5 @@
 import pixels from '../assets/images/projects/pixel-art.png';
+import lessons from '../assets/images/projects/lessons2.png';
 import play from '../assets/images/projects/playground.png';
 import zoo from '../assets/images/projects/zoo2.png';
 import color from '../assets/images/projects/guess2.png';
@@ -7,6 +8,15 @@ import github from '../assets/icons/github.svg';
 import web from '../assets/icons/web.svg';
 
 const contacts = [
+  {
+    name: "Lessons Learned",
+    image: lessons,
+    description: "First project at Trybe Course applying basics HTML and CSS. Refactored with TailwindCSS",
+    gitHub: "https://github.com/SheilaNS/project-lessons-learned",
+    gitIcon: github,
+    web: "https://sheilans.github.io/project-lessons-learned/",
+    webIcon: web,
+  },
   {
     name: "Playground Functions",
     image: play,
