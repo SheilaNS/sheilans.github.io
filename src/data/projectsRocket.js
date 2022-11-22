@@ -3,7 +3,7 @@ import github from '../assets/icons/github.svg';
 import web from '../assets/icons/web.svg';
 
 
-const contacts = [
+const rocket = [
   {
     name: "Desing System",
     image: desing,
@@ -15,4 +15,4 @@ const contacts = [
   },
 ]
 
-export default contacts;
+export default rocket;

@@ -5,7 +5,7 @@ import github from '../assets/icons/github.svg';
 import web from '../assets/icons/web.svg';
 
 
-const contacts = [
+const front = [
   {
     name: "Solar System",
     image: solar,
@@ -35,4 +35,4 @@ const contacts = [
   },
 ]
 
-export default contacts;
+export default front;

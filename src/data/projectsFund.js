@@ -7,7 +7,7 @@ import meme from '../assets/images/projects/meme.png';
 import github from '../assets/icons/github.svg';
 import web from '../assets/icons/web.svg';
 
-const contacts = [
+const fundamentals = [
   {
     name: "Lessons Learned",
     image: lessons,
@@ -64,4 +64,4 @@ const contacts = [
   },
 ]
 
-export default contacts;
+export default fundamentals;
