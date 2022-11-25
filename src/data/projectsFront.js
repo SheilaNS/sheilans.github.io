@@ -1,4 +1,5 @@
 import tunes from '../assets/images/projects/trybetunes.png';
+import tryunfo from '../assets/images/projects/tryunfo.png';
 import solar from '../assets/images/projects/solar3.png';
 import wallet from '../assets/images/projects/wallet.png';
 import github from '../assets/icons/github.svg';
@@ -13,6 +14,15 @@ const front = [
     gitHub: "https://github.com/SheilaNS/project-solar-system",
     gitIcon: github,
     web: "https://sheilans.github.io/project-solar-system/",
+    webIcon: web,
+  },
+  {
+    name: "Tryunfo",
+    image: tryunfo,
+    description: "Create your own deck of top trumps cards.",
+    gitHub: "https://github.com/SheilaNS/project-tryunfo",
+    gitIcon: github,
+    web: undefined,
     webIcon: web,
   },
   {
