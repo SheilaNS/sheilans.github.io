@@ -2,6 +2,7 @@ import pixels from '../assets/images/projects/pixel-art.png';
 import list from '../assets/images/projects/list.png';
 import lessons from '../assets/images/projects/lessons2.png';
 import trybewarts from '../assets/images/projects/trybewarts.png';
+import test from '../assets/images/projects/test.png';
 import play from '../assets/images/projects/playground.png';
 import zoo from '../assets/images/projects/zoo2.png';
 import color from '../assets/images/projects/guess2.png';
@@ -81,6 +82,15 @@ const fundamentals = [
     gitHub: "https://github.com/SheilaNS/project-trybewarts",
     gitIcon: github,
     web: 'https://sheilans.github.io/project-trybewarts/',
+    webIcon: web,
+  },
+  {
+    name: "JS Unit Test",
+    image: test,
+    description: "Practicing ES6 and unit tests in Jest.",
+    gitHub: "https://github.com/SheilaNS/project-js-unit-tests",
+    gitIcon: github,
+    web: undefined,
     webIcon: web,
   },
   {
