@@ -1,9 +1,11 @@
 import pixels from '../assets/images/projects/pixel-art.png';
+import list from '../assets/images/projects/list.png';
 import lessons from '../assets/images/projects/lessons2.png';
 import play from '../assets/images/projects/playground.png';
 import zoo from '../assets/images/projects/zoo2.png';
 import color from '../assets/images/projects/guess2.png';
 import meme from '../assets/images/projects/meme.png';
+import letter from '../assets/images/projects/letter.png';
 import github from '../assets/icons/github.svg';
 import web from '../assets/icons/web.svg';
 
@@ -27,6 +29,15 @@ const fundamentals = [
     webIcon: web,
   },
   {
+    name: "ToDo List",
+    image: list,
+    description: "A lot to do? Create your to do list here.",
+    gitHub: "https://github.com/SheilaNS/project-todo-list",
+    gitIcon: github,
+    web: "https://sheilans.github.io/project-todo-list/",
+    webIcon: web,
+  },
+  {
     name: "Pixels Art",
     image: pixels,
     description: "Create art with pixel art on a dynamic board.",
@@ -42,6 +53,15 @@ const fundamentals = [
     gitHub: "https://github.com/SheilaNS/project-color-guess",
     gitIcon: github,
     web: "https://sheilans.github.io/project-color-guess/",
+    webIcon: web,
+  },
+  {
+    name: "Mistery Letter",
+    image: letter,
+    description: "Create one mistery letter.",
+    gitHub: "https://github.com/SheilaNS/project-mistery-letter",
+    gitIcon: github,
+    web: undefined,
     webIcon: web,
   },
   {
