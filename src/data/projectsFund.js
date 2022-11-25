@@ -1,6 +1,7 @@
 import pixels from '../assets/images/projects/pixel-art.png';
 import list from '../assets/images/projects/list.png';
 import lessons from '../assets/images/projects/lessons2.png';
+import trybewarts from '../assets/images/projects/trybewarts.png';
 import play from '../assets/images/projects/playground.png';
 import zoo from '../assets/images/projects/zoo2.png';
 import color from '../assets/images/projects/guess2.png';
@@ -71,6 +72,15 @@ const fundamentals = [
     gitHub: "https://github.com/SheilaNS/project-meme-generator",
     gitIcon: github,
     web: "https://sheilans.github.io/project-meme-generator/",
+    webIcon: web,
+  },
+  {
+    name: "Trybewarts",
+    image: trybewarts,
+    description: "If you are a magic student, send a feedback through Trybewarts School of Magic forms. First pair made project.",
+    gitHub: "https://github.com/SheilaNS/project-trybewarts",
+    gitIcon: github,
+    web: 'https://sheilans.github.io/project-trybewarts/',
     webIcon: web,
   },
   {
