@@ -1,4 +1,5 @@
 import tunes from '../assets/images/projects/trybetunes.png';
+import store from '../assets/images/projects/store.png';
 import cart from '../assets/images/projects/cart.png';
 import tryunfo from '../assets/images/projects/tryunfo.png';
 import solar from '../assets/images/projects/solar3.png';
@@ -42,6 +43,15 @@ const front = [
     gitHub: "https://github.com/SheilaNS/project-trybetunes",
     gitIcon: github,
     web: "https://project-trybetunes-nu.vercel.app/",
+    webIcon: web,
+  },
+  {
+    name: "FrontEnd Online Store",
+    image: store,
+    description: "First group project. Need to buy anything? Come to our Front-End Online Store! We have everything you want.",
+    gitHub: "https://github.com/SheilaNS/project-frontend-online-store",
+    gitIcon: github,
+    web: undefined,
     webIcon: web,
   },
   {
