@@ -1,4 +1,5 @@
 import tunes from '../assets/images/projects/trybetunes.png';
+import cart from '../assets/images/projects/cart.png';
 import tryunfo from '../assets/images/projects/tryunfo.png';
 import solar from '../assets/images/projects/solar3.png';
 import wallet from '../assets/images/projects/wallet.png';
@@ -7,6 +8,15 @@ import web from '../assets/icons/web.svg';
 
 
 const front = [
+  {
+    name: "Shopping Cart",
+    image: cart,
+    description: "First project using API. Need a new computer? Buy one on TrybeShopping shopping cart.",
+    gitHub: "https://github.com/SheilaNS/project-shopping-cart",
+    gitIcon: github,
+    web: "https://sheilans.github.io/project-shopping-cart/",
+    webIcon: web,
+  },
   {
     name: "Solar System",
     image: solar,
